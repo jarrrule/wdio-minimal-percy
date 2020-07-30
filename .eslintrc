@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "@boltui/eslint-config",
+    "prettier",
+    "plugin:wdio/recommended"
+  ],
+  "plugins": [
+    "chai-friendly",
+    "jest",
+    "wdio"
+  ],
+  "rules": {
+    "chai-friendly/no-unused-expressions": 2,
+    "no-underscore-dangle": 0,
+    "import/no-extraneous-dependencies": ["warn"]
+  }
+}

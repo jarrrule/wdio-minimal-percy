@@ -1,0 +1,7 @@
+coverage
+features/slicedFeatures
+node_modules
+reports
+*.log
+capabilities.json
+.idea
