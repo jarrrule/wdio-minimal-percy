@@ -24,13 +24,13 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/register": "^7.10.5",
     "@percy/webdriverio": "^1.0.4",
+    "@wdio/browserstack-service": "^6.4.0",
     "@wdio/cli": "^6.3.6",
     "@wdio/cucumber-framework": "^6.3.6",
     "@wdio/selenium-standalone-service": "^6.1.14",
     "webdriverio": "^5.23.0"
   },
   "devDependencies": {
-    "@boltui/eslint-config": "^0.2.0",
     "@wdio/local-runner": "^6.3.6",
     "@wdio/mocha-framework": "^6.3.6",
     "@wdio/spec-reporter": "^6.3.6",

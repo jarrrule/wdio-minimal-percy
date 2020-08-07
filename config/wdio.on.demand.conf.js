@@ -30,9 +30,9 @@ exports.config =  {
     timeout: 120000,
     ignoreUndefinedDefinitions: false
   },
-  user: undefined,
-  key: undefined,
-  services: [ 'selenium-standalone' ],
+  user: process.env.BROWSERSTACK_USER,
+  key: process.env.BROWSERSTACK_ACCESSKEY,
+  services: [ 'browserstack' ],
   sync: true,
   logLevel: 'error',
   coloredLogs: true,
