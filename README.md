@@ -1,6 +1,7 @@
+* To build Docker image
 docker build -t  docker.deveng.systems/qa/argos-browserstack-tunnel --rm --no-cache .
 
-
+* To run in Docker
 replace volume below with output from pwd
 replace browserstack creds
 replace percy_token
